@@ -1,6 +1,6 @@
 # React APP using NASA TechTransfer API 
 
-React App using the [NASA TechTransfer API](https://api.nasa.gov/#techtransfer)
+React App using the [NASA TechTransfer API](https://api.nasa.gov/#techtransfer). CSS styles using Tailwindcss.
 
 [View the App on GitHub Pages](https://joeaoregan.github.io/react-nasa-techtransfer-api-app/)
 
@@ -9,6 +9,8 @@ React App using the [NASA TechTransfer API](https://api.nasa.gov/#techtransfer)
 [React, Nasa REST API con Vitejs + Tailwindcss + gh-pages](https://www.youtube.com/watch?v=C-srYIh1Gvk) (Spanish)
 
 [How To Deploy A React Vite App To Github Pages (Simple)](https://www.youtube.com/watch?v=hn1IkJk24ow)
+
+[tailwindcss](https://tailwindcss.com/)
 
 ---
 
