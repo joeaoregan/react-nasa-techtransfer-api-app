@@ -18,17 +18,19 @@ function ListAirplane() {
     }
     fetchData().catch(console.error);
   }, []);
-  
-  return <div> {
-    load ? (
-      obj.length != 0 ? (
-        obj.map((o) => {
-          // console.log(o);
-          return ( <Airplane key={o[0]} data={o}/> )
-        })
-      ) : ("No data available")
-    ) : ("Loading...")
-  }</div>;
+
+  return (
+    <div className="grid grid-cols-3 gap-4"> {
+      load ? (
+        obj.length != 0 ? (
+          obj.map((o) => {
+            // console.log(o);
+            return (<Airplane key={o[0]} data={o} />)
+          })
+        ) : ("No data available")
+      ) : ("Loading...")
+    }</div>
+  );
 }
 
 export default ListAirplane
